@@ -8,7 +8,7 @@
 
 ## Linux系统 自建KMS服务器
 
-### 一键安装KMS服务 （Debian/Ubuntu/Mint 等）
+### 一键安装KMS服务 （Debian/Ubuntu/Mint 等）  debian必须先安装curl，命令未apt install curl
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/git2048test/kmspro/master/kmspro.sh && chmod +x kmspro.sh && bash kmspro.sh debian
 ```
